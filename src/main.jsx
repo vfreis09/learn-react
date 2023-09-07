@@ -6,8 +6,13 @@ import "./index.css";
 function Header() {
   return (
     <header>
-      <nav>
-        <img src="./react.svg" width="40px"></img>
+      <nav className="nav-bar">
+        <img src="./react.svg" className="react-logo"></img>
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
@@ -15,9 +20,9 @@ function Header() {
 
 function MainContent() {
   return (
-    <div>
-      <h1>Reason I'm excited to learn React</h1>
-      <ol>
+    <div className="main-content">
+      <h1 className="title">Reason I'm excited to learn React</h1>
+      <ol className="list">
         <li>
           It's a popular library, so I'll be able to fit in with the cool kids!
         </li>
@@ -28,7 +33,11 @@ function MainContent() {
 }
 
 function Footer() {
-  return <footer>© 2023 Fernandes development. All rights reserved.</footer>;
+  return (
+    <footer className="footer">
+      © 2023 Fernandes development. All rights reserved.
+    </footer>
+  );
 }
 
 function Page() {
