@@ -1,0 +1,17 @@
+.main-section {
+  width: 100%;
+}
+
+.main-title {
+  padding-left: 40px;
+  margin-top: 60px;
+}
+
+.main-list {
+  margin-top: 40px;
+  padding-left: 60px;
+}
+
+.main-list > li {
+  margin-top: 15px;
+}

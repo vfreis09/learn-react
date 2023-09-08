@@ -1,57 +1,10 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+
 body {
   margin: 0px;
-  padding-bottom: 200px;
-  font-family: Arial;
-}
-
-.nav,
-li {
-  padding: 10px;
-}
-
-.nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-.nav-items {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.react-logo {
-  width: 60px;
-  padding: 20px;
-}
-
-.main-content {
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  width: 100%;
-}
-
-.title {
-  padding-left: 100px;
-}
-
-.list {
-  padding-top: 30px;
-  padding-left: 140px;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: darkgray;
-  color: white;
-  text-align: center;
-  padding: 20px;
+  background-color: #282d35;
 }
