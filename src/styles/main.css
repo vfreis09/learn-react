@@ -15,3 +15,8 @@
 .main-list > li {
   margin-top: 15px;
 }
+
+.main-list > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
